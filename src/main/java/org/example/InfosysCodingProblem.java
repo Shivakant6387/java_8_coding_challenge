@@ -8,7 +8,7 @@ A,B,C,P:Q
  */
 public class InfosysCodingProblem {
     public static void main(String[] args) {
-        StringJoiner stringJoiner=new StringJoiner(",");
+        StringJoiner stringJoiner=new StringJoiner(",","[","]");
         stringJoiner.add("A").add("B").add("C");
         System.out.println(stringJoiner);
         StringJoiner stringJoiner2=new StringJoiner(":");
